@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+}
+#box{
+	display: block;
+	width: 500px;/*limit 2000px*/
+	margin:50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 4px solid blue;
+	background: yellow;
+	outline: 7px solid red;
+	/*-webkit-transform:scale(1.5);*/ /* */
+	/*-webkit-transform:scale(1,1);*/ /*x,y scaling*/
+	/*-webkit-transform:scale(1,-1);*/ /*negative scaling*/
+	/*-webkit-transform:skew(30deg); */
+	/*-webkit-transform:rotate(45deg); */
+	/* -webkit-transform:translate(150px, 300px);*/
+	-webkit-transform:translate(100px, 100px) rotate(30deg) scale(.8);
+}
+#text{
+	font: bold 30px century gothic;
+}
